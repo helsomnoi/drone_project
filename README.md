@@ -18,6 +18,7 @@ make
 # Результат программы:
 
 ## drone_project:
+```bash
 lena@lena-virtualbox:~/drone_project/build$ make
 lena@lena-virtualbox:~/drone_project/build$ ./drone_project udp://:14540 100
 [09:12:43|Info ] MAVSDK version: v2.12.12 (mavsdk_impl.cpp:26)
@@ -97,8 +98,9 @@ Waiting for land to be detected...
 Disarmed
 
 === Mission completed successfully ===
-
+```
 ## PX4-Autopilot:
+```bash
 lena@lena-virtualbox:~$ cd PX4-Autopilot/
 lena@lena-virtualbox:~/PX4-Autopilot$ make px4_sitl gz_x500
 [0/1] cd /home/lena/PX4-Autopilot/bui...opilot/build/px4_sitl_default/bin/px4
@@ -168,6 +170,7 @@ INFO  [tone_alarm] notify neutral
 INFO  [logger] closed logfile, bytes written: 21197047
 INFO  [commander] Connection to ground station lost
 WARN  [health_and_arming_checks] Preflight Fail: No connection to the GCS
+```
 
 Правда отображение симмуляции в газебо не видно, возможно не хватает оперативки на ВМ.
 ![alt text](image.png)
